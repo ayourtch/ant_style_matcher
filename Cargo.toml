@@ -1,0 +1,7 @@
+[package]
+name = "ant_style_matcher"
+version = "0.1.0"
+authors = ["Andrew Yourtchenko <ayourtch@gmail.com>"]
+edition = "2018"
+
+[dependencies]

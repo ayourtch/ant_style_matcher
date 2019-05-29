@@ -22,8 +22,8 @@ None.
 * `org/**/servlet/bla.jsp` - matches `org/springframework/servlet/bla.jsp` but also `org/springframework/testing/servlet/bla.jsp` and `org/servlet/bla.jsp`
 
 ### _Complexity_
-The matching algorithm of [AntPathMatcherArrays](../master/src/main/java/io/github/azagniotov/matcher/AntPathMatcherArrays.java) uses a `O(N)` space complexity, since the algorithm does not create
-substrings (unlike [AntPathMatcher](../master/src/main/java/io/github/azagniotov/matcher/AntPathMatcher.java)) and recurses by moving pointers on the original char arrays
+The matching algorithm uses a `O(N)` space complexity, since the algorithm does not create
+substrings and recurses by moving pointers on the original char arrays
 
 ### _Credits_
 * The algorithm in this implementation has been borrowed from https://github.com/azagniotov/ant-style-path-matcher
